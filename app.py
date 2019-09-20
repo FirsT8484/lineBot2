@@ -31,7 +31,6 @@ def callback():
         sendText(user,'นอนเล่น')
     else :
         sendText(user,'ฉันไม่เข้าใจ')
-
     return '',200
 
 def sendText(user, text):
